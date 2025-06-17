@@ -1,25 +1,14 @@
-import logo from './logo.svg';
+// src/App.js
+import React from 'react';
 import './App.css';
+import HomePage from './Views/HomePage';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          hello world here!
-        </p>
-        <a
-          className="App-link"
-          href="https://github.com"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Github here
-        </a>
-      </header>
+      <HomePage />
     </div>
   );
 }
-
 export default App;
+
